@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    align-items: center;
+    height: 92px;
+    position: sticky;
+    top: 0;
+    background-color: #FFFCF3;
+    z-index: 1000;
+}
+
+.logo {
+    position: absolute;
+    left: 100px;
+    font-size: 32px;
+    top: 30px;
+
+    &:hover {
+        color: #00BC8F;
+    }
+}
+
+.menu {
+    position: absolute;
+    right: 100px;
+    top: 30px;
+
+    img {
+        height: 32px;
+        width: 32px;
+    }
+
+
+    button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .logo{
+        left: 50px;
+    }
+    .menu{
+        right: 50px;
+    }
+  }

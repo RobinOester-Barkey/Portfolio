@@ -1,0 +1,24 @@
+<div class="pokedex-page" 
+(mouseenter)="onMouseEnter()" 
+(mouseleave)="onMouseLeave()"
+[ngClass]="{ 'hovered': isHovered }">
+    <h3>
+        02/03
+    </h3>
+    <div class="image-container">
+        <img src="/assets/img/pokedex.png" alt="">
+    </div>
+    <div class="p-arrow">
+        <img src="/assets/img/p-arrow.png" alt="">
+    </div>
+
+    <div class="description">
+        <h4>Pokedex</h4>
+        <h5>JavaScript | HTML | CSS | API </h5>
+        <p>Based on the PokéAPI a simple library that provides and catalogues pokemon information.</p>
+        <div class="buttons">
+            <a href="https://github.com/RobinOester-Barkey/Pokedex" target="_blank"><button>Github</button></a>
+            <a href="https://pokedex.oester-barkey.net/" target="_blank"><button>Live test</button></a>
+        </div>
+    </div>
+</div>
